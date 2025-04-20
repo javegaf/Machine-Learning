@@ -1,16 +1,21 @@
 # 📊 Análisis de Clientes y Pagos - Proyecto CRISP-DM
 
-Este repositorio contiene el desarrollo de un proyecto de análisis de datos financieros enfocado en el comportamiento de clientes, pagos y transacciones. El análisis se desarrolla bajo la metodología **CRISP-DM** para asegurar un proceso estructurado desde la comprensión de los datos hasta la implementación de posibles modelos predictivos.
+Este repositorio documenta el desarrollo de un proyecto de análisis de datos financieros orientado al estudio del comportamiento de clientes del banco Monopoly, recientemente adquirido por **Dormammu**. El análisis se guía por la metodología **CRISP-DM** (Cross-Industry Standard Process for Data Mining), asegurando un enfoque estructurado desde la comprensión del negocio hasta la evaluación de modelos predictivos.
 
 ---
 
 ## 🧠 Descripción del Proyecto
 
-El objetivo del proyecto es explorar y analizar una base de datos mensual de clientes, transacciones y pagos —tanto nacionales como internacionales— con el fin de identificar patrones, relaciones y posibles anomalías en el comportamiento de los clientes.
+El objetivo principal de este proyecto es analizar una base de datos compuesta por **574 variables** y más de **51.000 registros de clientes**, con información mensual sobre pagos, transacciones y otras actividades financieras. Este análisis busca comprender la relación entre las **transacciones realizadas** y los **pagos efectivos**, identificar patrones de comportamiento, detectar posibles anomalías y anticipar escenarios futuros mediante modelos predictivos.
 
-Las etapas actuales del proyecto se centran en la **Comprensión de los Datos** y el **Preprocesamiento**, incluyendo limpieza, transformación y visualización.
+Actualmente, el proyecto se encuentra en las fases de **Comprensión de los Datos** y **Preparación**, abarcando procesos como:
 
-Posteriormente, se abordarán las etapas de **Modelado**, **Evaluación** y **Despliegue** con el fin de construir modelos predictivos sobre el comportamiento futuro de pagos o clientes inactivos.
+- Limpieza y transformación de variables  
+- Creación de nuevas columnas (como pagos totales)  
+- Detección y tratamiento de valores nulos  
+- Conversión de formatos y estructuras  
+- Visualización inicial mediante mapas de calor y diagramas de dispersión  
+- Análisis de correlaciones relevantes  
 
 ---
 
@@ -18,26 +23,42 @@ Posteriormente, se abordarán las etapas de **Modelado**, **Evaluación** y **De
 
 ### Propósito
 
-Analizar la relación entre el número de transacciones realizadas por los clientes y los pagos efectivos mensuales. Esto permitirá mejorar la toma de decisiones comerciales, anticipar comportamientos y detectar períodos de inactividad o anomalías.
+Brindar a Dormammu una plataforma analítica capaz de interpretar el comportamiento financiero de los clientes de Monopoly. A través del análisis de pagos y transacciones, se busca apoyar la toma de decisiones estratégicas para mejorar la **retención de clientes**, **optimizar productos financieros** y **anticipar comportamientos clave**.
 
 ### Justificación
 
-- **Optimización Estratégica**: Identificación de períodos de alta o baja actividad.
-- **Análisis Predictivo Futuro**: Para proyectar pagos futuros e inactividad de clientes.
-- **Mejora de Experiencia del Usuario**: Detectar errores o fricciones en pagos.
-- **Detección de Riesgos**: Análisis de anomalías o patrones irregulares de pago.
+- **📈 Optimización Estratégica:** Identificar patrones mensuales de actividad (alta/baja) que faciliten la planificación de campañas y recursos.  
+- **🔍 Análisis Predictivo:** Construir modelos que permitan prever pagos futuros, periodos de inactividad o probabilidad de impago.  
+- **💡 Mejora de la Experiencia del Cliente:** Detectar fricciones en los procesos de pago o señales de descontento del cliente.  
+- **⚠️ Reducción de Riesgos:** Identificar anomalías y caídas de desempeño para activar medidas preventivas ante comportamientos inusuales.  
+
+---
+
+## 🌍 Contexto de Negocio
+
+Banco Monopoly, con años de operación en el mercado chileno, ha sido adquirido por Dormammu, una entidad financiera con sede en Nueva York. Como parte de su proceso de integración, Dormammu ha solicitado un estudio exhaustivo sobre el comportamiento de los clientes de Monopoly, con el fin de diseñar estrategias efectivas para abordar este nuevo mercado.
+
+Los datos fueron extraídos por el equipo técnico de Monopoly y representan 12 meses de información mensual por cliente, organizada en una base de datos estructurada por columnas (variables mensuales por cliente, sin duplicados de registros).
 
 ---
 
 ## 🧪 Proceso del proyecto (CRISP-DM)
 
-| Etapa              | Estado     | Descripción                                                                 |
-|--------------------|------------|------------------------------------------------------------------------------|
-| Comprensión del Negocio  | ✅ Completa | Análisis de objetivos, preguntas clave e hipótesis                          |
-| Comprensión de los Datos | ✅ Completa | Carga, limpieza y exploración inicial de los datos                         |
-| Preparación de los Datos | 🔄 En proceso | Enriquecimiento de variables, gestión de valores nulos                     |
-| Modelado           | ⏳ Pendiente | Entrenamiento de modelos predictivos (ej. inactividad, impago)             |
-| Evaluación         | ⏳ Pendiente | Validación de los modelos y su utilidad para el negocio                    |
-| Despliegue         | ⏳ Pendiente | Implementación o documentación de los hallazgos para toma de decisiones    |
+| Etapa                   | Estado       | Descripción                                                                 |
+|-------------------------|--------------|------------------------------------------------------------------------------|
+| Comprensión del Negocio | ✅ Completada | Definición de objetivos analíticos, preguntas clave y contexto del banco    |
+| Comprensión de los Datos| ✅ Completada | Exploración inicial, detección de problemas de calidad, visualización       |
+| Preparación de los Datos| 🔄 En curso   | Limpieza, transformación, creación de variables derivadas                   |
+| Modelado                | ⏳ Pendiente  | Desarrollo de modelos para predecir pagos, inactividad o comportamiento     |
+| Evaluación              | ⏳ Pendiente  | Validación de resultados y comparación con expectativas de negocio          |
+| Despliegue              | ⏳ Pendiente  | Documentación de hallazgos, recomendaciones y visualizaciones clave         |
+
+---
+
+## 📌 Próximos Pasos
+
+- Finalización del preprocesamiento de datos.  
+- Selección y entrenamiento de modelos supervisados y no supervisados.
+- Evaluación de precisión, recall y utilidad empresarial de los modelos.  
 
 ---
