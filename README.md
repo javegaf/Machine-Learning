@@ -48,7 +48,7 @@ Los datos fueron extraídos por el equipo técnico de Monopoly y representan 12 
 |-------------------------|--------------|------------------------------------------------------------------------------|
 | Comprensión del Negocio | ✅ Completada | Definición de objetivos analíticos, preguntas clave y contexto del banco    |
 | Comprensión de los Datos| ✅ Completada | Exploración inicial, detección de problemas de calidad, visualización       |
-| Preparación de los Datos| 🔄 En curso   | Limpieza, transformación, creación de variables derivadas                   |
+| Preparación de los Datos| ✅ Completada | Limpieza, transformación, creación de variables derivadas                   |
 | Modelado                | ⏳ Pendiente  | Desarrollo de modelos para predecir pagos, inactividad o comportamiento     |
 | Evaluación              | ⏳ Pendiente  | Validación de resultados y comparación con expectativas de negocio          |
 | Despliegue              | ⏳ Pendiente  | Documentación de hallazgos, recomendaciones y visualizaciones clave         |
